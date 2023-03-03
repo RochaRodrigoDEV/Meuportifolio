@@ -3,16 +3,16 @@
 :root {
   --blue: #5280e2;
   --green: #15cdcb;
-  --background-dark: #000200;
-  --ligth-gray: #e0dede;
-  --white: #fff;
-  --secundary-bg: #36373a;
-  --secundary-bg: #36373a;
-    --secundary-gray: rgb(111, 109, 109);
+  --background-dark: #f4f7f4;
+  --ligth-gray: #000000;
+  --white: #000000;
+  --secundary-bg: #ffffff;
+  --secundary-bg: #ffffff;
+    --secundary-gray: rgb(255, 249, 249);
   --primary-grd: linear-gradient(
     158deg,
-    rgb(0, 179, 219) 0%,
-    hsl(195, 100%, 35%) 100%
+    rgb(15, 15, 15) 0%,
+    hsl(192, 100%, 50%) 100%
   );
 }
 :target{
@@ -102,7 +102,7 @@ nav a::before {
     width: 100%;
     height: 2px;
     border-radius: 4px;
-    background-color:#00b3db;
+    background-color:#176277;
     bottom: 0;
     right: 0;
     transform-origin: right;
@@ -220,7 +220,7 @@ margin: 0 auto;
   min-width: 50%;
   min-height: 100%;
   border-radius: 30px;
-  border: 4px double #00b3db;
+  border: 4px double #eff0f0;
   padding: 5px;
 }
 
@@ -305,12 +305,13 @@ margin: 0 auto;
   bottom: -110px;
   left: calc(50% - 50% / 2);
 
-  background-color: var(--secundary-bg);
+  background: #7e8181;
   text-align: center;
   justify-content: center;
   font-weight: bold;
   cursor: pointer;
 }
+
 
 .curriculum .container-curriculum .secundary-btn svg {
   margin-right: 15px;
@@ -319,7 +320,12 @@ margin: 0 auto;
 .curriculum .container-curriculum .secundary-btn span {
   display: none;
 }
-
+.content .botaoVerde{
+  background: #00f120;
+}
+.content .botaoAzul{
+  background: #0d2eeb;
+}
 /* ANIMAÇÃO */
 
 @keyframes abrirMenu {
